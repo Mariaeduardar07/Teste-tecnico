@@ -1,0 +1,107 @@
+main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+
+.section-white {
+    blackground-color: white;
+    width: 50%;
+    height: 100%;
+}
+
+
+.section-black {
+    background-color: black;
+    width: 50%;
+    height: 100%;
+}
+
+.menu {
+    display: flex;
+}
+
+.divisor{
+    width: 22rem; 
+    border: 0; 
+    height: 4px;
+    background-color: white ;
+    margin: 0;  
+}
+
+
+.right-header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 2rem;
+}
+
+main .section-black {
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 5rem;
+
+}
+
+.icons{
+    margin: 0 1.5rem;
+    font-size: 30px;
+}
+
+.section-black h1 {
+    text-decoration: underline;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.section-black h2  {
+    text-decoration: underline;
+    text-align: center;
+    background-color: aqua;
+}
+
+
+.logotipos {
+    display: flex;
+    flex-direction: column;
+    align-items:first baseline;
+    margin: 0rem 5rem;
+    gap: 2rem;
+}
+
+.logo-title{
+    font-size: 30px;
+}
+.logos{
+    width: 80%;
+    display: flex ;
+    justify-content: space-around;
+    background-color: yellow;
+}
+
+.main-img {
+    display: flex;
+    justify-content: center;
+}
+
+.main-img img {
+    width: 60%;
+    background-color: tomato;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
