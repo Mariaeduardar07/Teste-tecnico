@@ -14,12 +14,103 @@ body {
     display: flex;
 }
 
+/* parte branca */
 .section-left {
-    background-color: rgb(204, 202, 202);
+    background-color: #b4acacb2;
     width: 50%;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
 }
 
+.left-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.container-card {
+    width: 70%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F2EFE5;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-shoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    width: 95%;
+    height: 16vh;
+    background-color: #9a9696ab;
+    border-radius: 15px
+}
+
+.card-shoes img {
+    height: 70%;
+    margin-left: 1rem;
+}
+
+.description-shoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.description-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+
+.text-total {
+    margin: 1rem 0 0.5rem 28rem;
+    width: 100%;
+}
+
+
+.buttons-fotter-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+button {
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+    gap: 299rem;
+}
+
+#cancel {
+    background-color: rgb(253, 41, 41);
+    border-radius: 5px;
+}
+
+#check {
+    background-color: rgb(38, 38, 253);
+    border-radius: 5px;
+}
+
+
+/* Parte preta */
 .section-right {
     background-color: black;
     color: white;
@@ -28,12 +119,12 @@ body {
 }
 
 
-.left-header,  
+
 .right-header {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .menu {
@@ -61,16 +152,15 @@ body {
 
 .logos {
     display: flex;
-    align-items:first baseline;
     justify-content: center;
     gap: 2rem;
 }
 
 .img-card {
-    width: 60%;
+    width: 75%;
     height: 45vh;
-    justify-content: center;
 }
+
 
 .footer-right {
     display: flex;
